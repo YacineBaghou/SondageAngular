@@ -1,0 +1,5 @@
+<td>{{ sondage.libelleSondage | uppercase }}</td>
+<td><a ng-click="repondreSondage(sondage.id)">Répondre</a></td>
+<td> NB Participants</td>
+<td> {{ sondage.dateFin }}</td>
+<td><a ng-click="voirCategorie(sondage.idCategorie)">{{ sondage.libelleCategorie }}</a></td>
